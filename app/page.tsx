@@ -5,7 +5,7 @@ export default function Home() {
 
       <p className="mb-4">
         Nexus es el shell principal que conecta múltiples microfrontends
-        independientes desplegados como contenedores Docker.
+        independientes desplegados de forma autónoma.
       </p>
 
       <p className="mb-4">
