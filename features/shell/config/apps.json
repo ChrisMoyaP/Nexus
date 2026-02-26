@@ -4,10 +4,6 @@
     "path": "/"
   },
   {
-    "name": "Apps",
-    "path": "/apps"
-  },
-  {
     "name": "CV Inteligente",
     "path": "/mfe/cv",
     "description": "Aplicación de creación de CV inteligente",
