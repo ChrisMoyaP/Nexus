@@ -1,6 +1,6 @@
 export default function CVPage() {
   return (
-    <div className="-m-8 h-screen overflow-hidden">
+    <div className="absolute inset-0">
       <iframe
         src="https://cv-inteligente-oizq.vercel.app/"
         className="w-full h-full border-0"

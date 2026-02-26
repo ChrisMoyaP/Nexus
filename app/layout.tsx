@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import Sidebar from "@/features/shell/components/Sidebar"
+import ShellLayout from "@/features/shell/components/ShellLayout"
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,10 +14,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`flex min-h-screen`}>
-        <Sidebar />
-        <main className="flex-1 p-8 bg-gray-100">{children}</main>
+    <html lang="es">
+      <body className="flex flex-col md:flex-row min-h-screen">
+        <ShellLayout sidebar={<Sidebar />}>
+          {children}
+        </ShellLayout>
       </body>
     </html>
   )
