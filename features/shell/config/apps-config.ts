@@ -1,21 +1,15 @@
+import appsData from "./apps.json"
+
 export type AppItem = {
   name: string
-  path: string
+  path?: string
+  externalUrl?: string
   description?: string
+  children?: AppItem[]
 }
 
-export const apps: AppItem[] = [
-  {
-    name: "Home",
-    path: "/",
-  },
-  {
-    name: "Apps",
-    path: "/apps",
-  },
-  {
-    name: "CV Inteligente",
-    path: "/mfe/cv",
-    description: "Aplicación de creación de CV inteligente",
-  }
-]
+export async function getApps(): Promise<AppItem[]> {
+  // Future: replace this body with a fetch() or DB query.
+  // The return type and call signature never change.
+  return appsData as AppItem[]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Home",
+    "path": "/"
+  },
+  {
+    "name": "Apps",
+    "path": "/apps"
+  },
+  {
+    "name": "CV Inteligente",
+    "path": "/mfe/cv",
+    "description": "Aplicación de creación de CV inteligente",
+    "externalUrl": "https://cv-inteligente-oizq.vercel.app/"
+  }
+]
