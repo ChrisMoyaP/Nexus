@@ -4,9 +4,21 @@
     "path": "/"
   },
   {
-    "name": "CV Inteligente",
+    "name": "CV",
     "path": "/mfe/cv",
-    "description": "Aplicación de creación de CV inteligente",
-    "externalUrl": "https://cv-inteligente-teal.vercel.app/"
+    "description": "Aplicación de creación de CV",
+    "externalUrl": "https://cv-inteligente-teal.vercel.app/",
+    "children": [
+      {
+        "name": "Crear CV",
+        "path": "/mfe/cv/crear",
+        "externalUrl": "https://cv-inteligente-teal.vercel.app/"
+      },
+      {
+        "name": "Editar CV",
+        "path": "/mfe/cv/editar",
+        "externalUrl": "https://cv-inteligente-teal.vercel.app/cv/edit"
+      }
+    ]
   }
 ]

@@ -31,8 +31,8 @@ function NavItem({ app, pathname }: { app: AppItem; pathname: string }) {
   const activeClass = "bg-white text-black font-semibold"
   const inactiveClass = "hover:bg-gray-800"
 
-  // Grupo colapsable — tiene hijos, sin path ni externalUrl propios
-  if (hasChildren && !app.path && !app.externalUrl) {
+  // Grupo colapsable — tiene hijos (con o sin path/externalUrl propios)
+  if (hasChildren) {
     return (
       <div>
         <button
