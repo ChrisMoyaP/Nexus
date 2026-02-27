@@ -12,7 +12,7 @@
       {
         "name": "Crear CV",
         "path": "/mfe/cv/crear",
-        "externalUrl": "https://cv-inteligente-teal.vercel.app/"
+        "externalUrl": "https://cv-inteligente-teal.vercel.app/crear"
       },
       {
         "name": "Editar CV",
