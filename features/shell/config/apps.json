@@ -18,6 +18,11 @@
         "name": "Editar CV",
         "path": "/mfe/cv/editar",
         "externalUrl": "https://cv-inteligente-teal.vercel.app/cv/edit"
+      },
+      {
+        "name": "Comparar con Oferta",
+        "path": "/mfe/cv/comparar",
+        "externalUrl": "https://cv-inteligente-teal.vercel.app/cv/comparar"
       }
     ]
   }
